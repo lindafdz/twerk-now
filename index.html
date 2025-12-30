@@ -1,48 +1,89 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>Twerk Now</title>
-  <link rel="stylesheet" href="styles.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
-  <!-- HERO -->
-  <section class="hero">
-    <h1>TWERK NOW</h1>
-    <p class="subtitle">Clase de bienvenida</p>
-    <p class="info">29 · 06 · 2025 — 12:00 PM</p>
-    <p class="info">Condesa, CDMX</p>
-    <a href="#clases" class="btn">Ver clases</a>
-  </section>
+<!-- HERO -->
+<section class="hero">
+  <h1>TWERK NOW</h1>
+  <p class="subtitle">¿Estás listx?</p>
+</section>
 
-  <!-- CLASES -->
-  <section id="clases" class="clases">
-    <h2>Clases</h2>
-
-    <div class="card">
-      <h3>Twerk Principiantes</h3>
-      <p>Ideal si nunca has tomado clase</p>
-    </div>
-
-    <div class="card">
-      <h3>Twerk Acrotécnica</h3>
-      <p>Fuerza, técnica y control corporal</p>
-    </div>
-  </section>
-
-  <!-- CONTACTO -->
-  <section class="contacto">
-    <h2>¿Estás listx?</h2>
-    <a class="btn" href="https://wa.me/521XXXXXXXXXX" target="_blank">
-      Inscribirme
+<section class="redes">
+    <a href="https://instagram.com/TU_USUARIO" target="_blank" class="social ig">
+      Instagram
+    </a>
+    <a href="https://tiktok.com/@TU_USUARIO" target="_blank" class="social tt">
+      TikTok
     </a>
   </section>
+  
+<!-- HORARIOS -->
+<section class="horarios">
+    <h2>Horarios</h2>
+  
+    <div class="estudio-card">
+      <div class="estudio-info">
+        <h3>Estudio Doctores</h3>
+        Dr. Lucio 242, Col. Doctores, CDMX
+        <ul><br>
+          <li><strong>Reggaeton</strong> – Viernes 8:00 – 9:30 PM</li>
+          <li><strong>Girly Dance</strong> – Sábados 11:30 AM – 1:00 PM</li>
+          <li><strong>Acro Twerk</strong> – Domingos 12:30 – 2:00 PM</li>
+          <li><strong>Twerk Training</strong> – Domingos 2:00 – 4:00 PM</li>
+        </ul>
+      </div>
+  
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15051.741020494503!2d-99.1629995804581!3d19.415203210973395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff2473747723%3A0x74e09157a024c943!2sC.%20Dr.%20Lucio%20242%2C%20Doctores%2C%20Cuauht%C3%A9moc%2C%2006720%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1sen!2smx!4v1767060813474!5m2!1sen!2smx"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  
+    <div class="estudio-card">
+      <div class="estudio-info">
+        <h3>Estudio Roma</h3>
+        <ul>
+          <li><strong>Twerk Dance & Train</strong> – Martes 8:00 – 9:30 PM</li>
+          <li><strong>MBM</strong> – Miércoles 8:00 – 9:30 PM</li>
+          <li><strong>Heels</strong> – Jueves 8:00 – 9:30 PM</li>
+          <li><strong>Twerk Principiantes</strong> – Sábados 4:00 – 5:30 PM</li>
+        </ul>
+      </div>
+  
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10983.771727278194!2d-99.15998544998618!3d19.41648610622051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff3ad1f378f9%3A0x6c1acf235153c617!2sMerida%20124%2C%20Roma%20Nte.%2C%20Cuauht%C3%A9moc%2C%2006700%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1sen!2smx!4v1767061044389!5m2!1sen!2smx"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+  
 
-  <footer>
-    <p>© 2025 Twerk Now</p>
-  </footer>
+<!-- PRECIOS -->
+<section class="precios-section">
+  <h2>Precios</h2>
+  <div id="precios"></div>
+</section>
 
+<!-- CTA -->
+<section class="contacto">
+  <h2>Inscríbete</h2>
+  <a class="btn" href="https://wa.me/521XXXXXXXXXX" target="_blank">
+    WhatsApp
+  </a>
+</section>
+
+<footer>
+  © 2025 Twerk Now
+</footer>
+
+<script src="prices.js"></script>
 </body>
 </html>
