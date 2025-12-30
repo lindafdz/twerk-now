@@ -31,7 +31,7 @@ fetch(horariosURL)
       `;
 
       estudios[estudio].forEach(item => {
-        html += `<li><strong>${item.clase}</strong> – ${item.dia} ${item.hora}</li>`;
+        html += `<li><strong>${item.clase}</strong> | ${item.dia} <br> ${item.hora}</li>`;
       });
 
       html += `</ul></div>`;
